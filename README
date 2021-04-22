@@ -1,0 +1,10 @@
+This is a python programe , which gives all the valid word from provided character.
+I have made this programe to solve android game 'Word Legend'.
+
+For word_solution.py to run it requires words_dictionary.json file to be present in same directry
+as my python file is.
+
+I have got this file from this source
+https://github.com/dwyl/english-words/blob/master/words_dictionary.json
+
+Thanks for its creaters, for its licence so i can use it.
