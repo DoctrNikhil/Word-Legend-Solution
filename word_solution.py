@@ -9,9 +9,6 @@ try:
         print("Loading Please wait")
         # this contains all valid english words
         all_possible_words = json.load(file)
-
-        #print("OOps Error occured possibly 'words_dictionary.json' is not prsent in this directroy,\nGet this file from my Github project")
-
         usercharacters = input("Give me characters less than length 11, don't give space\n")
 
         # possible_words from user characters
