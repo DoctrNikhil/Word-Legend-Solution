@@ -10,7 +10,7 @@ try:
         # this contains all valid english words
         all_possible_words = json.load(file)
         usercharacters = input("Give me characters less than length 11, don't give space\n")
-
+        usercharacters = usercharacters.lower()
         # possible_words from user characters
         for i in range(1,len(usercharacters)+1):
             possible_words_of_len_i = [''.join(p) for p in itertools.permutations(usercharacters,i)]
